@@ -10,3 +10,11 @@ test:
       database: monitoramento-prefeitura
       hosts:
         - localhost:27017
+production:
+  sessions:
+    default:
+      database: transparenciaprefis
+      hosts:
+        - linus.mongohq.com:10023
+      username: haddad
+      password: transprefis2013
