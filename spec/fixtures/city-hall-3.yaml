@@ -1,0 +1,1617 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<base href="http://www.capital.sp.gov.br/portalpmsp/home2LayoutSecundario.jsp">
+<title>São Paulo On-line - Prefeitura da Cidade de São Paulo - v4.5</title>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="shortcut icon" href="Imagens/portal/favicon.ico" type="image/x-icon">
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript" SRC="js/scriptsPgPrincipal.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript" SRC="js/alertas.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript" SRC="js/mask.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript" SRC="js/textarea.js"></SCRIPT>
+</head>
+
+
+
+
+
+<body>
+<center>
+<table width="780" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td bgcolor="#666666">
+
+
+
+
+
+<script type="text/javascript">
+
+	function busca() {
+	    document.form.action = '/portalpmsp/do/busca';
+	    document.form.op.value = 'buscaForm';
+	    document.form.buscaAvancada.value = 'false';
+	    document.form.buscaSimples.value = 'false';
+	    document.form.isHead.value = 'true';
+	    document.form.submit();
+	}
+
+	function enterBusca(e) {
+	    if(e.keyCode == 13){
+	       document.form.action = '/portalpmsp/do/busca';
+	       document.form.op.value = 'buscaForm';
+	       document.form.buscaAvancada.value = 'false';
+	       document.form.buscaSimples.value = 'false';
+	       document.form.submit();
+	    }
+	}
+
+</script>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" summary="Tabela Externa CGE">
+	<tr>
+		<td style="width: 500px">
+			<table class="normal_home" cellspacing="0" cellpadding="0" border="0" summary="Tabela Alerta CGE">
+				<tr>
+					<td style="width: 15px"><a href="/portalpmsp#conteudoPrincipal" class="ancoraDeficiente">vá ao conteúdo principal</a><a href="/portalpmsp#barraNavegacao" class="ancoraDeficiente">vá para o menu</a>&nbsp;CGE&nbsp;</td>
+					<td style="width: 22px">
+						
+						
+									
+									 	<img src="Imagens/portal/icn_cge_observacao.gif" width="19" height="18" alt="Observação"></td><td>&nbsp;Observação&nbsp;-&nbsp;
+									
+									 
+									
+												
+						
+									<a href="http://www.cgesp.com.br/"  target="_blank" CLASS="normal_home">Acompanhe as condições do tempo na Capital paulista</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td style="width: 280px;" align="right">
+			<table border="0" width="185" cellspacing="0" cellpadding="0" summary="Tabela Temperatura, Engarrafamento">
+				<tr>
+					<td style="width: 20px; text-align: center">
+						<a href="http://www.prefeitura.sp.gov.br/servicos/cidadaos/meio_ambiente/clima/index.php" target="_blank">
+						
+							<img src="Imagens/portal/icn_pc.gif" width="19" height="18" alt="Pancada de Chuva - temperatura em graus:">
+						
+						</a>
+					</td>
+					<td style="width: 40px; text-align: center" class="normal_home">
+						
+						 <a href="http://www.prefeitura.sp.gov.br/servicos/cidadaos/meio_ambiente/clima/index.php" target="_blank">
+						24ºC
+						</a>
+						
+					</td>
+					<td style="width: 20px; text-align: center">
+						<a href="http://www.prefeitura.sp.gov.br/servicos/cidadaos/transito_e_transporte/lentidao/index.php" target="_blank">
+								
+								<img src="Imagens/portal/icn_transito.gif" width="19" height="18" alt="Trânsito em São Paulo">
+						
+						</a>
+					</td>
+					<td style="width: 40px; text-align: center" class="normal_home">
+						<a href="http://www.prefeitura.sp.gov.br/servicos/cidadaos/transito_e_transporte/lentidao/index.php" target="_blank">
+						0km
+						 </a>
+					</td>
+					<td style="width: 20px; text-align: right">
+						
+						       <img src="Imagens/portal/icn_rodizio.gif" width="19" height="18" alt="Rodízio de Carros - placas com finais:">
+						
+					</td>
+					<td style="width: 45px; text-align: center" class="normal_home">
+						Livre
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" summary="Tablea Externa Head">
+	<tr>
+		<td style="width: 620px; background-color: #000000">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" summary="Tabela Externa Head 2">
+				<tr>
+					<td><a href="/portalpmsp/"><img src="Imagens/portal/prefeituraspgovbr.gif" width="315" height="70" alt="Portal Prefeitura de São Paulo"></a></td>
+					<td style="height: 72px">
+					<table border="0" width="90%" cellspacing="0" cellpadding="0" summary="Tabela Externa Ícones Acesse Rápido e Busca">
+						<tr>
+							<td>
+							<table border="0" width="100%" cellspacing="0" cellpadding="0" summary="Ícones Acesso Rápido">
+								<tr>
+									<td>&nbsp;</td>
+									<td style="width: 20px; text-align: right">
+									<a href="/portalpmsp/"><img src="Imagens/portal/btn_home.gif" width="20" height="25" alt="Página Inicial"></a></td>
+									<td style="width: 20px; text-align: right">
+									<a href="do/mapa?op=insertForm"><img src="Imagens/portal/btn_mapadosite.gif" width="20" height="25" alt="Mapa do Site"></a></td>
+									<td style="width: 20px; text-align: right">
+									<a href="/portalpmsp/do/faleconosco?op=filtroForm"><img src="Imagens/portal/btn_faleconosco.gif" width="20" height="25" alt="Fale Conosco"></a></td>
+									<td style="width: 20px; text-align: right">
+									<a href="do/ajuda"><img src="Imagens/portal/btn_ajuda.gif" width="20" height="25" alt="Ajuda"></a></td>
+								</tr>
+							</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="bottom">
+								<form name="form" action="javaScript: busca();">
+									<input type="hidden" name="op"/>
+									<input type="hidden" name="buscaAvancada"/>
+									<input type="hidden" name="buscaSimples"/>
+									<input type="hidden" name="contadorServico"/>
+									<input type="hidden" name="contadorInstituicao"/>
+									<input type="hidden" name="contadorUnidade"/>
+									<input type="hidden" name="contadorNoticia"/>
+									<input type="hidden" name="orderBy"/>
+									<input type="hidden" name="filter"/>
+									<input type="hidden" name="unidadeForm"/>
+									<input type="hidden" name="servicoForm"/>
+									<input type="hidden" name="coInstituicao"/>
+									<input type="hidden" name="isHead"/>
+										<table  cellspacing="2" cellpadding="0" border="0" width="100%" summary="Campo Busca">
+											<tr>
+												<td style="width: 90%; text-align: right" class="buscaLabel"><LABEL for="bca">Busca:</LABEL>&nbsp;<input id="bca" type="text" name="param" value="Busca no Portal" onFocus="clear_box('bca')" onkeypress="enterBusca(event);" style="font-family: Arial; font-size: 11px; height: 18;"></td>
+												<td style="width: 10%; text-align: left"><a href="javaScript: busca();"><img src="Imagens/portal/btn_busca.gif" alt="Busca no Portal"></a></td>	
+											</tr>
+										</table>
+								</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+		<td style="width: 160px; background-color: #000000">
+			<a href="/portalpmsp/"><img src="Imagens/portal/logo_governo.gif" width="160" height="70" alt="Prefeitura de São Paulo"></a>
+		</td>
+	</tr>
+</table></td>
+	</tr>
+	<tr>
+		<td height="1"></td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+
+
+
+		   	<table cellspacing="0" cellpadding="0">
+			<tr>
+				<td style="background-color: #ff6600; width: 179px"></td>
+				<td style="background-color: #ff6600; width: 601px"><img src="Imagens/portal/global_tit_geral.gif" width="350" height="47" alt="Portal da Cidade"></td>
+			</tr>
+		</table> 	   
+
+		
+
+		
+
+</td>
+	</tr>
+	<tr>
+		<td height="1"></td>
+	</tr>
+</table>
+<table width="780px" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="menu_tb" valign="top">
+			
+
+
+
+
+
+
+<TABLE WIDTH="180" CELLPADDING="0" BORDER="0" cellspacing="0">
+    <TR>
+		<td BGCOLOR="#666666" height="26" width="20"><img src="Imagens/portal/icn_ferramentas_do_portal.gif" alt="Ferramentas do Portal"></td>
+		<TD BGCOLOR="#666666" width="160" class="normal_home" align="left">Ferramentas do Portal</TD>
+	</TR>
+	<TR><TD BGCOLOR="#FFFFFF" HEIGHT="1" colspan="2"></TD></TR>
+	<tr>
+		<TD HEIGHT="17">&nbsp;</TD>
+		<TD HEIGHT="17">
+		  		
+		            <b><a CLASS="leftmenu" href="/portalpmsp/do/busca?op=insertForm&amp;buscaAvancada=true">Busca</a></b>
+		        
+		</TD>
+    </TR>
+	<TR><TD BGCOLOR="#FFFFFF" HEIGHT="1" colspan="2"></TD></TR>
+    <tr>
+		<TD HEIGHT="17">&nbsp;</TD>
+		<TD HEIGHT="17">
+		  		
+			<a CLASS="leftmenu" href="/portalpmsp/do/ajuda">Ajuda</a> 
+		</TD>
+	</TR>
+	<TR><TD BGCOLOR="#FFFFFF" HEIGHT="1" colspan="2"></TD></TR>
+	<tr>
+		<TD HEIGHT="17">&nbsp;</TD>
+		<TD HEIGHT="17">
+		  		
+			<a CLASS="leftmenu" href="/portalpmsp/do/mapa?op=insertForm">Mapa do Site</a> 
+		</TD>
+	</TR>
+	<TR><TD BGCOLOR="#FFFFFF" HEIGHT="1" colspan="2"></TD></TR>
+	<tr>
+		<TD HEIGHT="17">&nbsp;</TD>
+		<TD HEIGHT="17">
+		  <a CLASS="leftmenu" href="http://www.prefeitura.sp.gov.br/portal/portal/contato/index.php?contato=1">Fale Conosco</a>
+
+		    
+		    	<!-- <b><a CLASS="leftmenu" href="/portalpmsp/do/faleconosco?op=filtroForm">Fale Conosco</a></b> -->
+	      	    
+			<!--  <a CLASS="leftmenu" href="/portalpmsp/do/faleconosco?op=filtroForm">Fale Conosco</a>  --> 
+
+		</TD>
+	</tr>
+	<TR><TD BGCOLOR="#FFFFFF" HEIGHT="1" colspan="2"></TD></TR>
+    <tr>
+		<TD HEIGHT="17">&nbsp;</TD>
+		<TD HEIGHT="17">
+		  		
+			<a CLASS="leftmenu" href="/portalpmsp/do/tutorial?op=tutorial">Tutorial</a> 
+		</TD>
+	</TR>
+	<TR><TD BGCOLOR="#FFFFFF" HEIGHT="1" colspan="2"></TD></TR>
+</TABLE>
+
+		</td>
+		<td valign="top" width="600px">
+			
+
+
+
+
+
+
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr> 
+		<td style="background-color: #000000; text-align: center; height: 17px" class="normal_home">
+			<a href="do/cidadao?op=filtroForm&amp;coEstruturaPai=1&coEstruturaPaiVertical=1">Você Morador</a>
+		</td>
+		<td style="background-color: #000000; text-align: center; height: 17px" class="normal_home">
+			<a href="do/empresa?op=filtroForm&amp;coEstruturaPai=4&coEstruturaPaiVertical=4">Negócios na Cidade</a>
+		</td>
+		<td style="background-color: #000000; text-align: center; height: 17px" class="normal_home">
+			<a href="do/governo?op=filtroForm&amp;coEstruturaPai=2&coEstruturaPaiVertical=2">Relações de Governo</a>
+		</td>
+		<td style="background-color: #000000; text-align: center; height: 17px" class="normal_home">
+			<a href="do/funcionario?op=filtroForm&amp;coEstruturaPai=3&coEstruturaPaiVertical=3">Você Servidor</a>
+		</td>
+		<td style="background-color: #000000; text-align: center; height: 17px" class="normal_home">
+			<a href="do/saopaulo?op=filtroFormSaoPaulo&amp;coEstruturaPai=12">Conhecendo a Cidade</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="bread" colspan="5" height="30">
+
+        
+		
+		
+		<!-- ******* INICIO coPAI ******* -->
+		
+			 	 
+				 	  
+	    	
+	    
+	    	
+		
+			
+		
+		        
+		
+		 
+		  
+		
+		<!-- ******* FIM coPAI ******* -->
+		
+				
+		&nbsp;&nbsp;<a href="/portalpmsp/" class="breadLink">Principal</a> > <a href="do/busca?op=insertForm" class="breadLink">Busca</a>
+			 
+		
+		</td>
+	</tr>
+</table>
+
+ 
+<br>
+			
+
+
+
+
+
+ 
+<SCRIPT LANGUAGE="JavaScript" SRC="js/autocomplete.js" type="text/javascript"></SCRIPT>
+<script language="javascript" type="text/javascript">
+<!--
+	function insertForm() {
+	    document.BuscaForm.action = '/portalpmsp/do/busca';
+	    document.BuscaForm.op.value = 'insertForm';
+	    document.BuscaForm.isHead.value='';
+	    document.BuscaForm.submit();
+	}
+	function buscaForm() {
+	    document.BuscaForm.action = '/portalpmsp/do/busca';
+	    document.BuscaForm.op.value = 'buscaForm';
+		document.BuscaForm.unidadesPrestadoras.value = 'false';
+	    document.BuscaForm.isHead.value='';
+	    if(document.BuscaForm.buscaSimples.value == 'true' && document.BuscaForm.buscaAvancada.value == 'false')
+	       document.BuscaForm.buscaSimples.value = 'false';
+	    document.BuscaForm.submit();
+	}
+	function ordenar(orderBy) {
+	    document.BuscaForm.action = '/portalpmsp/do/busca';
+	    document.BuscaForm.op.value = 'buscaForm';
+	    document.BuscaForm.orderBy.value = orderBy;
+	    document.BuscaForm.isHead.value='';
+	    document.BuscaForm.submit();
+	}
+	function filtro(filter) {
+	    document.BuscaForm.action = '/portalpmsp/do/busca';
+	    document.BuscaForm.op.value = 'buscaForm';
+		document.BuscaForm.unidadesPrestadoras.value = 'true';
+	    document.BuscaForm.filter.value = filter;
+	    document.BuscaForm.isHead.value='';
+	    document.BuscaForm.submit();
+	}
+	function enterBuscaAvancada(e) {
+		if(e.keyCode == 13){
+	    	document.BuscaForm.action = '/portalpmsp/do/busca';
+	    	document.BuscaForm.op.value = 'buscaForm';
+			document.BuscaForm.unidadesPrestadoras.value = 'false';
+			document.BuscaForm.isHead.value='';
+		  if(document.BuscaForm.buscaSimples.value == 'true' && document.BuscaForm.buscaAvancada.value == 'false')
+		     document.BuscaForm.buscaSimples.value = 'false';
+	      if(document.BuscaForm.buscaAvancada.value == 'true')document.BuscaForm.submit();
+	    }
+	}
+	function mudaFoco(componente,tamanho,proximo,event){
+		keyCode = getKeyCode(event);
+		if(keyCode == 32 || (keyCode > 40 && keyCode != 127 && keyCode != 144 && keyCode != 145 && keyCode != 154 && keyCode != 155 && keyCode < 224) || 
+			keyCode > 227){ /* Caracteres de movimento nao entram. */
+			if(document.BuscaForm.elements[componente].value.length >= tamanho){
+				document.BuscaForm.elements[proximo].focus();
+			}
+		}
+	}
+	function validaData(){
+		v1 = document.BuscaForm.dtInicialNoticia.value;
+		v2 = document.BuscaForm.dtFinalNoticia.value;
+
+		if(v1 == '' || v1 == null){
+			alerta('É necessário o preenchimento da data inicial para a realização da consulta.');
+			document.BuscaForm.dtInicialNoticia.focus();
+			return false;
+		}
+		if(v2 == '' || v2 == null){
+			alerta('É necessário o preenchimento da data final para a realização da consulta.');
+			document.BuscaForm.dtFinalNoticia.focus();
+			return false;
+		}
+
+		if(v1 != '' && v1 != null &&
+			v2 != '' && v2 != null){
+			if(v1.substr(0, 2) > v2.substr(0, 2) && v1.substr(3, 2) >= v2.substr(3, 2) &&
+			   v1.substr(6, 4) >= v2.substr(6, 4)){
+				alerta('O dia referente a data inicial não pode ser maior que o dia da data final.');
+				document.BuscaForm.dtInicialNoticia.focus();
+				return false;
+			}
+			else if(v1.substr(3, 2) > v2.substr(3, 2) && v1.substr(6, 4) >= v2.substr(6, 4)){
+				alerta('O mês referente a data inicial não pode ser maior que o mês da data final.');
+				document.BuscaForm.dtInicialNoticia.focus();
+				return false;
+			}else if(v1.substr(6, 4) > v2.substr(6, 4)){
+				alerta('O ano referente a data inicial não pode ser maior que o ano da data final.');
+				document.BuscaForm.dtInicialNoticia.focus();
+				return false;
+			}
+		}
+		return true;
+	}
+	function isValidDate(day, month, year, campo) {
+	    if (month < 1 || month > 12) {
+		alerta('Data inválida.');
+		campo.focus();
+	        return false;
+	    }
+	    if (day < 1 || day > 31) {
+		alerta('Data inválida.');
+		campo.focus();
+	        return false;
+	    }
+	    if ((month == 4 || month == 6 || month == 9 || month == 11) && (day == 31)) {
+		alerta('Data inválida.');
+		campo.focus();
+	        return false;
+	    }
+	    if (month == 2) {
+	        var leap = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+		if (day>29 || (day == 29 && !leap)) {
+		   alerta('Data inválida.');
+		   campo.focus();
+		   return false;
+		}
+	    }
+	    return true;
+	}
+	function preparaPesquisa(){
+	
+	     
+	     
+	        var str = document.BuscaForm.param.value.replace(/^\s+|\s+$/g,"");
+			if (str == null || str == '') {
+				alerta('Por favor digite pelo menos um termo para busca');
+				return false;
+			}
+	        buscaForm();
+	     
+	  
+	}
+	function preparaPesquisaParam(e){
+	
+	     
+	     
+	        enterBuscaAvancada(e);
+	     
+	  
+	}
+//-->
+</script> 
+<form name="BuscaForm" method="post" action="/portalpmsp/do/busca">
+<input type="hidden" name="op" value="buscaForm">
+<input type="hidden" name="buscaAvancada" value="false">
+<input type="hidden" name="buscaSimples" value="true">
+<input type="hidden" name="contadorServico" value="0">
+<input type="hidden" name="contadorInstituicao" value="0">
+<input type="hidden" name="contadorUnidade" value="0">
+<input type="hidden" name="contadorNoticia" value="58">
+<input type="hidden" name="contadorSaoPaulo" value="0">
+<input type="hidden" name="orderBy" value="0">
+<input type="hidden" name="filter" value="0">
+<input type="hidden" name="unidadeForm" value="false">
+<input type="hidden" name="servicoForm" value="false">
+<input type="hidden" name="coInstituicao" value="0">
+<input type="hidden" name="isHead" value="">
+<input type="hidden" name="unidadesPrestadoras" value="false">
+<input type="hidden" name="coSeqEstrutura" value="">
+
+
+  
+      <input type="hidden" name="coBusca" value="3">
+  
+
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" style="BORDER-COLLAPSE: collapse">
+  <tr>
+	<TD WIDTH="7" height=1/>
+	<td>
+	<!-- BODY -->
+	<div id="alertas" style="visibility:hidden"></div><div id="erros" style="visibility:hidden"></div><div id="info" style="visibility:hidden"></div>
+	 <TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" style="BORDER-COLLAPSE: collapse">
+ 		
+		  
+		
+		<tr> 
+			<td colspan="2" valign="top" class="titulo_6">
+				
+						
+	     						
+							
+								Resultado da Busca
+							
+						
+						
+			</td>
+		</tr>
+        <tr>
+		
+		  <td colspan="2">
+              <table width="100%"  border="0" cellpadding="0">
+                <tr>
+                  <td width="447">&nbsp;</td>
+                  <td>
+		      
+				<div align="left"><a class="listLinks" href="/portalpmsp/do/busca?op=insertForm&buscaAvancada=true">Busca Avan&ccedil;ada</a></div>
+		      
+		      
+		 		</td>
+                </tr>
+              </table>
+		  </td>
+		
+        </tr>
+        <!-- <script language="javascript" type="text/javascript">
+			function clearText() {
+			     document.BuscaForm.param.value=filterNum(document.BuscaForm.param.value)
+				
+			     function filterNum(str) {
+			     		if (document.BuscaForm.param.value.length <= 1) {
+							alerta("Termo inválido");
+							campo.focus();
+	        				return false;
+			     		} else {
+					          re = /$|,|@|#|~|`|%|\*|\^|\&|\(|\)|\+|\=|\[|\-|\_|\]|\[|\}|\{|\;|\:|\'|\"|\<|\>|\?|\||\\|\!|$|\./g;
+					          // remove special characters like "$" and "," etc...
+					          return str.replace(re, "");
+			     		}
+			     }
+			}
+        </script>-->
+        <tr> 
+          <td colspan="2"><input type="text" name="param" size="82" value="haddad" onkeypress="preparaPesquisaParam(event);">
+		  <input type="button" name="Submit22" value="Busca" style="width:80px;height:22px" onClick="preparaPesquisa();"></td>
+        </tr>
+	</table>
+
+	
+	
+	
+	<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" style="BORDER-COLLAPSE: collapse">
+		<tr> 
+		  <td colspan="2">&nbsp;</td>
+		</tr>
+		<tr> 
+			<td colspan="2" class="titulo_7">
+				
+					
+						Resultado com o termo 
+						<em>haddad</em>
+					
+				
+			</td>
+		</tr>
+		<tr> 
+		  <td colspan="2">&nbsp;</td>
+		</tr>
+
+		
+		
+			
+			
+			
+<!-- ************************************************Lista Noticias******************************************************************* -->			
+			
+				<tr> 
+				  <td colspan="2" class="noticia_normal">
+					
+					  
+					  
+						58
+					  
+					
+				    &nbsp;notícias encontradas
+				  </td>
+				</tr>
+			
+<!-- ******************************************************************************************************************* -->			
+			
+			
+			
+			
+			
+				
+					
+					<tr> 
+					  <td colspan="2" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom: 1px solid #C0C0C0"/>
+					</tr>
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+							
+					
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=52148
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(02/01/2013 20:50:00) 
+											  
+											
+											Fernando <b>Haddad</b> anuncia 16 medidas para prevenção de enchentes
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=52149
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(02/01/2013 20:40:00) 
+											  
+											
+											Prefeito anuncia o chefe da Controladoria Geral do Município e comissão para buscar terrenos para hospitais e creches
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=52135
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(01/01/2013 18:00:00) 
+											  
+											
+											<b>Haddad</b>: Principal desafio é o enfrentamento da miséria extrema em São Paulo"
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=51042
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(14/09/2012 10:24:00) 
+											  
+											
+											Operação Cata-Bagulho percorre 30 Subprefeituras neste sábado
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=48614
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(17/02/2012 17:55:00) 
+											  
+											
+											Umapaz abre inscrições para curso de educação ambiental Plantar Sementes
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=46730
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(23/09/2011 11:05:37) 
+											  
+											
+											Operação Cata-Bagulho percorre 27 Subprefeituras neste sábado
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=44591
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(27/05/2011 12:04:05) 
+											  
+											
+											Operação Cata-Bagulho percorre 18 Subprefeituras neste sábado
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=43789
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(06/04/2011 12:05:12) 
+											  
+											
+											Poesia dos Quatro Cantos em homenagem à cultura árabe, no CCSP
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=40265
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(10/09/2010 12:30:16) 
+											  
+											
+											Operação Cata-Bagulho percorre 14 Subprefeituras neste sábado
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=39054
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(19/07/2010 13:05:31) 
+											  
+											
+											Oficina gratuita de alimentação sustentável no Ibirapuera
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=39024
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(16/07/2010 18:28:58) 
+											  
+											
+											Umapaz realiza oficina de alimentação sustentável
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=38854
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(12/07/2010 12:39:31) 
+											  
+											
+											Umapaz realiza oficina de alimentação sustentável
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=38839
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(08/07/2010 19:15:17) 
+											  
+											
+											Umapaz realiza oficina de alimentação sustentável
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=37718
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(21/05/2010 11:01:58) 
+											  
+											
+											Cata-Bagulho percorre vias de 13 subprefeituras neste sábado
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=22509
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(27/03/2008 19:35:23) 
+											  
+											
+											Agenda do prefeito
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=17743
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(07/08/2007 11:04:00) 
+											  
+											
+											Prefeitura inaugura cinco Telecentros, com o total de 90 computadores
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=15662
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(13/04/2007 15:40:00) 
+											  
+											
+											Sábado tem Operação Cata-Bagulho em Perus, Ipiranga e Vila Prudente
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+						<tr> 
+						  <td colspan="2" class="noticia_normal">
+							
+								
+								
+								  
+									  
+										<a class="listlinks" href="
+											
+												
+												
+												
+													http://www.prefeitura.sp.gov.br/portal/a_cidade/noticias/index.php?p=12890
+												
+											" 
+											
+											
+												
+												
+													target="_blank"
+												
+											>
+											
+											
+												
+												
+												. 
+											
+<!-- ********************************************************************************************************************** -->											
+											
+											
+											  
+												(16/10/2006 15:20:00) 
+											  
+											
+											Festival A Arte de Contar Histórias ganha segunda edição este mês
+										</a>
+<!-- ********************************************************************************************************************** -->																					
+									  
+								  
+								
+							
+						  </td>
+						</tr>				
+					
+					<tr> 
+					  <td colspan="2" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom: 1px solid #C0C0C0"/>
+					</tr>	
+					
+				
+				
+				
+        
+		
+		
+		
+		
+		
+			  <tr>
+				<td colspan="4" align="center">
+					<font ><input type="hidden" name="pg">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><a href="javascript:document.BuscaForm.pg.value=2;document.getElementById('buttonPesq').click();"><font color=#727272>&lt;&lt;</font></a></td>
+<td><center><a href="javascript:document.BuscaForm.pg.value=2;document.getElementById('buttonPesq').click();"><font color=#727272>Anterior</font></a></center></td>
+<td><center><font color=#727272>&nbsp;|&nbsp;</font></center></td>
+<td><a href="javascript:document.BuscaForm.pg.value=1;document.getElementById('buttonPesq').click();"><font color=#727272>1</font></a></center></td>
+<td><center><font color=#727272>&nbsp;|&nbsp;</font></center></td>
+<td><a href="javascript:document.BuscaForm.pg.value=2;document.getElementById('buttonPesq').click();"><font color=#727272>2</font></a></center></td>
+<td><center><font color=#727272>&nbsp;|&nbsp;</font></center></td>
+<td><center><font color=#727272><strong><u>3</u></strong></font></center></td>
+<td><center><font color=#727272>&nbsp;|&nbsp;</font></center></td>
+<td>&nbsp;</td>
+<td><div align="right"><font color=#727272>&nbsp</font></div></td>
+</tr>
+</table>
+</font>
+				</td>
+			  </tr>
+		 
+		  <tr>
+			<td align="center">
+				<div id="btn" style="visibility:hidden" align="center">
+<!--					<input type="button" name="buttonPesq" value="Click" onclick="document.BuscaForm.op.value='buscaForm';document.BuscaForm.submit();">-->
+                    <input id="buttonPesq" type="button" name="buttonPesq" value="Click" onclick="document.BuscaForm.op.value='buscaForm';document.BuscaForm.submit();">
+
+				</div>
+			</td>
+		  </tr>
+		<tr> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+	</TABLE>
+	<!-- FIM BODY -->
+   </td>
+   </tr>
+</table>
+</form>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#000000" colspan="2" align="right">
+	       <table cellspacing="0" cellpadding="0" border="0">
+	       	<tr>
+	       		<td width="660px" class="rodape">
+	       			Copyright | <a class="rodapeLink" href="/portalpmsp/do/aspectosLegais?op=viewForm">Expediente</a>
+	       		</td>
+	       		<td align="center" width="120px">
+					<a href="/portalpmsp/"><img src="Imagens/portal/logo_footer.gif" width="112" alt="Prefeitura da Cidade de São Paulo" height="42"></a>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body>
+</html>
