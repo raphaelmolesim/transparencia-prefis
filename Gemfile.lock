@@ -19,6 +19,7 @@ GEM
     multi_json (1.5.1)
     nokogiri (1.5.6)
     origin (1.0.11)
+    rack (1.5.2)
     rspec (2.12.0)
       rspec-core (~> 2.12.0)
       rspec-expectations (~> 2.12.0)
@@ -35,4 +36,5 @@ PLATFORMS
 DEPENDENCIES
   mongoid (~> 3.0.21)
   nokogiri
+  rack
   rspec
