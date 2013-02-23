@@ -32,6 +32,7 @@ class MonitoramentoPrefeitura
   end
   
   def import_data
+    News.delete_all
     CityHallFetcher.new.fetch('haddad').each { |news| news.save }
   end
 end
