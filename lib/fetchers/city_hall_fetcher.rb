@@ -1,5 +1,4 @@
 # encoding: UTF-8
-
 class CityHallFetcher
 
   def initialize
