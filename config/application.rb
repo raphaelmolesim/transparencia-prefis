@@ -8,7 +8,8 @@ class MonitoramentoPrefeitura
   def initialize(env)
 	  Mongoid.load!(File.expand_path("../mongoid.yml", __FILE__))
 	  
-	  %W(models).map { |dir| File.expand_path("../../#{dir}", __FILE__) }.
+	  %W(helpers models fetchers). # load folders in order
+	    map { |dir| File.expand_path("../../lib/#{dir}", __FILE__) }.
 	    each{ |dir| Dir::glob("#{dir}/**/*.rb").each { |f| require f } }
 	  
     @request = Rack::Request.new(env)
@@ -19,7 +20,7 @@ class MonitoramentoPrefeitura
       when "/" then 
         Rack::Response.new(File.read File.expand_path("../../views/index.html", __FILE__))
       when "/news" then 
-        Rack::Response.new(News.all, 200, {
+        Rack::Response.new(News.all.take(100).to_json, 200, {
           'Content-Type' => 'application/json'
         })
       when "/import" then 
@@ -31,18 +32,6 @@ class MonitoramentoPrefeitura
   end
   
   def import_data
-    %W(fetchers).map { |dir| File.expand_path("../../#{dir}", __FILE__) }.
-	    each do |dir| 
-	      Dir::glob("#{dir}/**/*.rb").each do |f| 
-	        begin 
-	          require f
-          rescue LoadError
-            next
-          end
-        end
-        Dir::glob("#{dir}/**/*.rb").each{ |f| require f }
-      end
-	  
-	  CityHallFetcher.new.fetch('haddad').each { |news| news.save }
+    CityHallFetcher.new.fetch('haddad').each { |news| news.save }
   end
 end

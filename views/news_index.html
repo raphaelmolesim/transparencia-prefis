@@ -1,0 +1,15 @@
+<section ng-controller="NewsCtrl">
+	<div class="page-header">
+		<h1>O que o Haddad tem feito?</h1>
+	</div>
+	<div class="row">
+		<ul id="news">
+			<li ng-repeat="news in news_list">
+				<blockquote>
+					<p><a href="{{ news.link }}">{{ news.title }}</a></p>
+					<small>{{ news.source }}</small>
+				</blockquote>
+			</li>
+		</ul>
+	</div>
+</section>

@@ -1,15 +1,13 @@
-body {
-  background-color: #4B7399;
-  font-family: Verdana;
-  font-size: 14px;
+
+
+ul#news {
+  list-style: none;
+  
 }
 
-#container {
-  width: 75%;
-  margin: 0 auto;
-  background-color: #FFF;
-  padding: 20px 40px;
-  border: solid 1px #black;
-  margin-top: 20px;
+ul#news li {
+  display: block;
+  width: 291px;
+  height: 130px;
+  float: left;
 }
-a { color: #0000FF; }
