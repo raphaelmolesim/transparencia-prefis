@@ -1,6 +1,8 @@
 # encoding: UTF-8
 class CityHallFetcher
 
+  attr_accessor :search_results
+
   def initialize
     @easy_http = EasyHTTP.new
     @domain = "capital.sp.gov.br"
@@ -23,16 +25,29 @@ class CityHallFetcher
 
   def fetch search_string
     content = @easy_http.get(@url, first_request(search_string), @headers) 
-    search_results = parse(content)
-    puts "==> #{search_results.size}"
+    @search_results = parse(content)
+    puts "==> #{@search_results.size}"
     (2..get_last_page(content)).each do |page_number|
       params = others_requests(search_string, page_number)
       content = @easy_http.post(@domain, 80, @search_path, params, @headers)
-      search_results << parse(content)
-      search_results.flatten!
-      puts "==> #{search_results.size}"
+      @search_results << parse(content)
+      @search_results.flatten!
+      puts "==> #{@search_results.size}"
     end
-    search_results
+    self
+  end
+  
+  def insert_or_update
+    @search_results.map do |params|
+      news = News.where(:link => params[:link]).first
+      if news
+        params.each { |field, value| news.write_attribute(field, value) }
+      else
+        news = News.new(params)
+      end
+      news.save!
+      news
+    end
   end
   
   private
@@ -40,11 +55,11 @@ class CityHallFetcher
       require 'nokogiri'
       doc = Nokogiri::HTML(html)
       doc.css("a.listlinks").map do |a| 
-        News.new({ 
+        { 
           title: a.content.gsub(/(\t|\r|\n)*/, ''),
           link: a['href'].gsub(/(\t|\r|\n)*/, ''),
           :source => :city_hall_website
-        })
+        }
       end
     end
 

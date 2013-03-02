@@ -1,17 +1,13 @@
-require 'mongoid'
+require File.expand_path("../initializer", __FILE__)
+Initializer.load_environment
 
 class MonitoramentoPrefeitura
+  
 	def self.call(env)
 	  new(env).response.finish
   end
   
   def initialize(env)
-	  Mongoid.load!(File.expand_path("../mongoid.yml", __FILE__))
-	  
-	  %W(helpers models fetchers). # load folders in order
-	    map { |dir| File.expand_path("../../lib/#{dir}", __FILE__) }.
-	    each{ |dir| Dir::glob("#{dir}/**/*.rb").each { |f| require f } }
-	  
     @request = Rack::Request.new(env)
   end
   
@@ -32,7 +28,6 @@ class MonitoramentoPrefeitura
   end
   
   def import_data
-    News.delete_all
-    CityHallFetcher.new.fetch('haddad').each { |news| news.save }
+    CityHallFetcher.new.fetch('haddad').insert_or_update
   end
 end

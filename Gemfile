@@ -9,8 +9,11 @@ gem "koala"
 
 group :development do
   gem "ruby-debug19"
+  gem "racksh"
 end
 
 group :test do
+  gem "rack-test"
   gem "rspec"
+  gem "database_cleaner"
 end

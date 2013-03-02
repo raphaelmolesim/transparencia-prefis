@@ -1,6 +1,6 @@
-root_path = File.dirname(__FILE__)
+root_path = "#{File.dirname(__FILE__)}"
 
-require File.expand_path("#{root_path}/config/application.rb", __FILE__)
+require "#{root_path}/config/application.rb"
 use Rack::Reloader, 0
 
 map "/public/javascripts" do

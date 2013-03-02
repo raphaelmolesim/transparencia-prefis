@@ -6,6 +6,6 @@ class News
   
   field :title, type: String
   field :link, type: String
-  field :source, type: String
+  field :source, type: Symbol
   
 end
